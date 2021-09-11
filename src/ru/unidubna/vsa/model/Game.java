@@ -2,7 +2,7 @@ package ru.unidubna.vsa.model;
 
 public class Game {
 
-    private final Player[] players;
+    private Player[] players;
 
     private final Field field;
 
@@ -18,6 +18,9 @@ public class Game {
 
     public Player[] getPlayers() {
         return players;
+    }
+    public void setPlayers(Player[] players){
+        this.players = players;
     }
 
     public Field getField() {
